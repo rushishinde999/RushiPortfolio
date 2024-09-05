@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Component/About";
 import Navbar from "./Component/Navbar";
-import Conatct from "./Component/Conatct";
+import Contact from "./Component/Contact";
 import Skill from "./Component/Skill";
 import Project from "./Component/Project";
 
@@ -17,7 +17,7 @@ const App = () => {
       ),
     },
     {
-      path: "/project",
+      path: "/Project",
       element: (
         <>
           <Navbar /> <Project />
@@ -33,10 +33,10 @@ const App = () => {
       ),
     },
     {
-      path: "/Conatact",
+      path: "/Contact",
       element: (
         <>
-          <Navbar /> <Conatct />
+          <Navbar /> <Contact />
         </>
       ),
     },

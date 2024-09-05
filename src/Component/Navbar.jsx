@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar  m-0">
-      <div className="nav  m-0  flex  md:flex-row sm:flex-row flex-col p-3 bg-gradient-to-r from-indigo-200 to-yellow-100    ">
+      <div className="nav  m-0  flex  md:flex-row flex-col p-3 bg-gradient-to-r from-indigo-200 to-yellow-100    ">
         <div className="name font-bold  text-2xl md:text-3xl md:mb-0 ">
           Rushikesh Ramchandra Shinde
         </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
             </li>
             <li className="hover:font-bold transition-all  ">
               <NavLink
-                to="/Conatact"
+                to="/Contact"
                 className={(e) => (e.isActive ? "text-red-600 " : " ")}
               >
                 Contact
@@ -44,8 +44,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className=" mr-4 h-20 w-20 ">
-          <button className=" bg-red-400 rounded-lg hover:font-bold transition-all p-1 ">
+        <div className=" h-20 w-20 md:w-auto  ">
+          <button className=" bg-red-400 rounded-lg hover:font-bold transition-all p-1 md:py-2 md:px-4">
             Hire Me
           </button>
         </div>

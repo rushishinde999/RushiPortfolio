@@ -2,17 +2,17 @@ import React from "react";
 import profile from "../assets/profile.jpg";
 import Skill from "./Skill";
 import Project from "./Project";
-import Conatct from "./Conatct";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 const About = () => {
   return (
     <div className="bg-gradient-to-r from-indigo-200 to-yellow-100">
       <div className="min-h-screen flex flex-col items-center p-6">
-        <div className="flex items-center gap-16 mb-6">
-          <div className="profile w-72">
+        <div className="flex items-center gap-16 mb-6  ">
+          <div className="profile w-72   ">
             <img
-              className="rounded-full h-60 w-60 transition-transform duration-300 hover:scale-110"
+              className="rounded-full h-60 w-60       transition-transform duration-300 hover:scale-110"
               src={profile}
               alt="Profile"
             />
@@ -44,7 +44,7 @@ const About = () => {
                 </a>
               </div>
               <div className="linkedin transition-transform hover:font-bold hover:text-blue-800">
-                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin "></i>
                 <a
                   href="https://www.linkedin.com/in/rushikesh-shinde-31b521238"
                   target="_blank"
@@ -79,7 +79,7 @@ const About = () => {
 
       <Skill />
       <Project />
-      <Conatct />
+      <Contact />
       <Footer />
     </div>
   );

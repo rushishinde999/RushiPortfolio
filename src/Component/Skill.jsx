@@ -8,8 +8,9 @@ import mongo from "../assets/mongo.jpeg";
 import react from "../assets/react.jpeg";
 import spring from "../assets/springboot.jpeg";
 import git from "../assets/github-icon.png";
-import github from "../assets/git1.svg";
+import github from "../assets/git.jpeg";
 import postman from "../assets/postman.jpeg";
+import aws from "../assets/aws.png";
 
 const Skill = () => {
   return (
@@ -106,6 +107,15 @@ const Skill = () => {
             alt="postman"
           />
           <span className="mt-2">Postman</span>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <img
+            className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
+            src={aws}
+            alt="postman"
+          />
+          <span className="mt-2">Amplify</span>
         </div>
       </div>
     </div>

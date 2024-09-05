@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import profile from "../assets/profile.jpg";
 import Skill from "./Skill";
 import Project from "./Project";
@@ -6,19 +6,22 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-gradient-to-r from-indigo-200 to-yellow-100">
       <div className="min-h-screen flex flex-col items-center p-6">
-        <div className="flex items-center gap-16 mb-6  ">
-          <div className="profile w-72   ">
+        <div className="flex items-center gap-16 mb-6 w-full md:flex-col">
+          <div className="profile w-full  flex justify-center ">
             <img
-              className="rounded-full h-60 w-60       transition-transform duration-300 hover:scale-110"
+              className="rounded-full   max-w-full w-full   transition-transform duration-300 hover:scale-110 sm:w-96 md:w-12/12 lg:w-96 "
               src={profile}
               alt="Profile"
             />
           </div>
-          <div className="aboutprofile w-3/6 p-6 rounded-3xl border-2 bg-gray-100">
-            <div className="font-semibold text-cyan-500 mb-4">About ME</div>
+          <div className="aboutprofile p-6 md:px-6   rounded-3xl border-2 bg-gray-100">
+            <div className="font-semibold text-cyan-500 mb-4 ">About ME</div>
             <p className="font-light mb-4">
               Hi, I am a motivated and dedicated Full Stack Java Developer with
               expertise in building robust web applications using Java, Spring
@@ -26,7 +29,7 @@ const About = () => {
               frontend and backend development, I am eager to apply my knowledge
               and learn new technologies in a dynamic team environment.
             </p>
-            <div className="flex justify-around">
+            <div className="flex flex-wrap justify-around">
               <div className="email transition-transform hover:font-bold hover:text-blue-800">
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:rushikeshrs2002@gmail.com">

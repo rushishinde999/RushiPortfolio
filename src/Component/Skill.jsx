@@ -1,7 +1,7 @@
 import React from "react";
 import html from "../assets/htmlpng.jpeg";
 import css from "../assets/csspng.jpeg";
-import js from "../assets/JavaScript.svg";
+import javascript from "../assets/javascript.png";
 import mysql from "../assets/mysql.jpeg";
 import java from "../assets/java.jpeg";
 import mongo from "../assets/mongo.jpeg";
@@ -37,7 +37,7 @@ const Skill = () => {
         <div className="flex flex-col items-center">
           <img
             className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
-            src={js}
+            src={javascript}
             alt="JavaScript"
           />
           <span className="mt-2">JavaScript</span>

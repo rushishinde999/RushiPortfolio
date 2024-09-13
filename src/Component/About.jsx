@@ -11,9 +11,9 @@ const About = () => {
   }, []);
   return (
     <div className="bg-gradient-to-r from-indigo-200 to-yellow-100">
-      <div className="min-h-screen flex flex-col items-center p-6">
-        <div className="flex items-center gap-16 mb-6 w-full md:flex-col">
-          <div className="profile w-full  flex justify-center ">
+      <div className="min-h-screen  flex flex-col items-center p-6">
+        <div className="flex items-center gap-16 mb-6 w-full md:flex-row">
+          <div className="profile w-full  flex   justify-center ">
             <img
               className="rounded-full   max-w-full w-full   transition-transform duration-300 hover:scale-110 sm:w-96 md:w-12/12 lg:w-96 "
               src={profile}

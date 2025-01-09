@@ -73,7 +73,7 @@ const Project = () => {
 
         <div className="project2 border-4 border-black w-full max-w-xs text-center flex flex-col items-center p-4">
           <img className="h-32 mb-4" src={portfolio} alt="TO-DO-LIST" />
-          <h2 className="text-xl font-bold mb-2 p-1">TO-DO-LIST</h2>
+          <h2 className="text-xl font-bold mb-2 p-1">Portfolio</h2>
           <p className="text-left">
             &#8226; I created a personal portfolio using React and Tailwind CSS,
             showcasing my skills, projects, and experience.

@@ -11,6 +11,9 @@ import git from "../assets/github-icon.png";
 import github from "../assets/git.jpeg";
 import postman from "../assets/postman.jpeg";
 import aws from "../assets/aws.png";
+import aws1 from "../assets/AWS1.png";
+import jira from "../assets/Jira.png";
+import docker from "../assets/Docker.png";
 
 const Skill = () => {
   return (
@@ -99,7 +102,6 @@ const Skill = () => {
           />
           <span className="mt-2">GitHub</span>
         </div>
-
         <div className="flex flex-col items-center">
           <img
             className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
@@ -108,14 +110,37 @@ const Skill = () => {
           />
           <span className="mt-2">Postman</span>
         </div>
-
         <div className="flex flex-col items-center">
           <img
             className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
             src={aws}
-            alt="postman"
+            alt="Amplify"
           />
           <span className="mt-2">Amplify</span>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
+            src={aws1}
+            alt="AWS"
+          />
+          <span className="mt-2">AWS</span>
+        </div>{" "}
+        <div className="flex flex-col items-center">
+          <img
+            className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
+            src={jira}
+            alt="jira"
+          />
+          <span className="mt-2">Jira</span>
+        </div>{" "}
+        <div className="flex flex-col items-center">
+          <img
+            className="h-32 w-32 p-3 border-2 border-indigo-200 rounded-lg transition-transform duration-300 hover:scale-125"
+            src={docker}
+            alt="postman"
+          />
+          <span className="mt-2">Docker</span>
         </div>
       </div>
     </div>

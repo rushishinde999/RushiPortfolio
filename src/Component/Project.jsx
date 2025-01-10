@@ -2,6 +2,7 @@ import React from "react";
 import ems from "../assets/ems.jpeg";
 import todo from "../assets/todo.jpeg";
 import portfolio from "../assets/portfolio.jpeg";
+import Quiz from "../assets/Quiz.jfif";
 const Project = () => {
   return (
     <div className="bg-gradient-to-r from-indigo-200 to-yellow-100 p-6">
@@ -60,7 +61,35 @@ const Project = () => {
             <p>
               <i class="fa-regular fa-rectangle-list"></i>
               <a
-                href="https://main.d1sqok07k6cqyo.amplifyapp.com/"
+                href="https://main.d2rbeu6xvd1rh2.amplifyapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline "
+              >
+                Project Link
+              </a>
+            </p>
+          </p>
+        </div>
+        <div className="project2 border-4 border-black w-full max-w-xs text-center flex flex-col items-center p-4">
+          <img className="h-32 mb-4" src={Quiz} alt="Quiz App" />
+          <h2 className="text-xl font-bold mb-2 p-2">Quiz-App</h2>
+          <p className="text-left">
+            &#8226;A simple Quiz App built using React and Tailwind CSS that
+            allows users to take multiple-choice quizzes.
+            <br />
+            &#8226;It displays one question at a time with options to choose
+            from.
+            <br />
+            &#8226;After submitting an answer, users can see their score and
+            move to the next question.
+            <br />
+            &#8226;The app is fully responsive, ensuring a smooth experience
+            across devices.
+            <p>
+              <i class="fa-regular fa-rectangle-list"></i>
+              <a
+                href="https://main.do9v6pk9tahgq.amplifyapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline "
